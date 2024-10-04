@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web cơ bản</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 0;
+
+        }
+
+        #container {
+            display: flex;
+            flex: 1;
+        }
+
+        nav {
+            background-color: #333;
+            width: 300px;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 25px 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            font-size: 28px;
+        }
+
+        main ul {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+
+        main ul li {
+        margin-bottom: 10px;
+    }
+
+        main ul li:before {
+        content: "\00B0";
+        color: black;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #c0c0c0;
+            color: white;        
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WEB CƠ BẢN .VN</h1>
+        <p>Hướng dẫn học lập trình web từ cơ bản đến nâng cao</p>
+    </header>
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="#">- Bài 01: Tên bài học</a></li>
+                <li><a href="#">- Bài 02: Tên bài học</a></li>
+                <li><a href="#">- Bài 03: Tên bài học</a></li>
+                <li><a href="#">- Bài 04: Tên bài học</a></li>
+                <li><a href="#">- Bài 05: Tên bài học</a></li>
+                <li><a href="#">- Bài 06: Tên bài học</a></li>
+                <li><a href="#">- Bài 07: Tên bài học</a></li>
+                <li><a href="#">- Bài 08: Tên bài học</a></li>
+                <li><a href="#">- Bài 09: Tên bài học</a></li>
+                <li><a href="#">- Bài 10: Tên bài học</a></li>
+                <li><a href="#">- Bài 11: Tên bài học</a></li>
+                <li><a href="#">- Bài 12: Tên bài học</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Layout là gì?</h2>
+            <br>Layout có thể tạm hiểu là cách mà chúng ta bố trí các thành phần chính trên một trang web.</br>
+            <br>Một trang web thường gồm các thành phần chính như:</br>
+            <br>
+              <ul>
+                <ul>
+                    <li>Header: Giới thiệu logo, mô tả và khẩu hiệu của trang web
+                    <li>Footer: Thông tin bản quyền của trang web
+                    <li>Menu: Thanh chức năng
+                    <li>Nội dung
+                    <li>...
+                </ul>   
+            </ul>
+        </br>
+        </main>
+    </div>
+
+    <footer>
+        <p>©2016 Web cơ bản All Rights Reserved</p>
+    </footer>
+</body>
+</html>
